@@ -258,7 +258,7 @@ input[type="checkbox"], input[type="radio"] {
 /*!normalize end*/
 
 .wrap {
-  width: 960px;
+  width: 100%;
   margin:0 auto;
   text-align:center;
 /*  background-color:gray;*/
@@ -356,4 +356,21 @@ input[type="checkbox"], input[type="radio"] {
   float:right;
   box-shadow: 0 0 2px 0 rgba(0,0,0, 0.3);
 /*  background-color:coral;*/
+}
+
+.c-note {
+  float:left;
+  width:15%;
+  height:8%;
+  background-color:lightgray;
+  margin: 5% 0;
+  margin-left: -5%;
+}
+
+.figure {
+
+}
+
+.fig-caption {
+
 }
